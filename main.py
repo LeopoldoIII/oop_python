@@ -26,6 +26,11 @@ class Item:
     def apply_discount(self):
         self.price = self.price * self.pay_rate
 
+    '''
+    This should also do something that has a relationship with the class
+    but usually, those are use to manipulate different structures of data to instantiate objects
+    like we have done with CSV
+    '''
     @classmethod
     def instantiate_from_csv(cls):
         with open('items.csv', 'r') as f:
@@ -38,7 +43,13 @@ class Item:
                 price=float(item.get('price')),
                 quantity=float(item.get('quantity'))
             )
-
+    
+    '''
+    This should do something that has a relationship
+    with the class, but not something that must be unique
+    per instance 
+    
+    '''
     @staticmethod
     def is_integer(num):
         # We will count out the floats that are poit zero
