@@ -1,7 +1,6 @@
 # enviroment setup 
     
-Just a repo to practice POO with python following next tutorial https://www.youtube.com/watch?v=Ej_02ICOIgs
-
+Just a repo to practice POO with python following next [tutorial](https://www.youtube.com/watch?v=Ej_02ICOIgs)
 
 create your venv
 
