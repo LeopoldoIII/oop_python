@@ -9,3 +9,23 @@ create your venv
 source your venv 
 
     source venv/bin/activate
+
+
+Encaptulation
+
+    Mechanism of restricting the direct access to some of our attributes in a program
+
+     self.__value = value 
+
+Abstraction
+
+    Concept of object oriented programming that only shows the necdesary attributes and hides the unnecessary information
+    basically hiding unnecessary details from the ussers
+
+Inheritance
+
+    Mechanism that allows us to reuse code across our clasess
+
+Polimorphism
+
+    It refers to use of a single type entity to represent different types
